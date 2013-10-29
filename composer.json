@@ -1,0 +1,23 @@
+{
+    "name": "omnilight/yz-admin",
+    "description": "Administration panel for Yz Engine",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pavel Agalecky",
+            "email": "pavel.agalecky@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/omnilight/yz"
+        }
+    ],
+    "require": {
+        "omnilight/yz": "*"
+    },
+    "autoload": {
+        "classmap": ["AdminModule.php"]
+    }
+}
