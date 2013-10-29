@@ -1,0 +1,42 @@
+[class^="icon-"], [class*=" icon-"]{
+    background:none;
+}
+
+.developer-mode-message {
+    color: #aaaaaa;
+    font-size: 0.8em;
+}
+
+.table .sub-header td,
+.table tfoot td {
+    font-weight: bold;
+    background-color: #ebebeb;
+}
+
+.admin-filters-widget .row {
+    padding-bottom: 10px;
+}
+
+p.help-block, p.help-block * {
+    font-size: 0.9em;
+}
+
+.nav-list li a i {
+    color: black;
+}
+
+.toggle-column {
+    text-align: center !important;
+}
+
+.toggleLink,
+.toggleLink:hover {
+    text-decoration: none;
+    border-bottom: 2px dotted #0088cc;
+}
+
+iframe.fullPage {
+    width: 100%;
+    border: 0;
+    position: absolute;
+}
